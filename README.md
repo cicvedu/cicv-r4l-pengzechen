@@ -17,7 +17,7 @@ when the compiler compile the kernel, it check .config file. There are two cases
  compiled as a dynamic moudel.
  compiled as a part of kernel (be linked)
 then the compiler search symbols in spesific file like "helloworld.c"
-finally compile it to binary file like helloworld.ko or helloworld.o
+finally compile it to binary file like helloworld.ko or helloworld.o  
 Q2: I think the Makefile make difference
 ~~~
 KDIR ?= ../linux
